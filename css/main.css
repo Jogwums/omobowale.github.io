@@ -1,0 +1,179 @@
+#container {
+	width:1050px;
+	margin:auto;
+	height:auto;
+	}
+	
+#headerLeft{
+	float:left;
+	
+	}
+
+#headerRight{
+	float:right;
+	width:35%;
+	background: linear-gradient(to bottom, #DCF0A5, #BFEB64);
+	padding:20px;
+	}
+
+#headerLeft h1 {
+	font-weight:200;
+	color:#861BBF;
+	font-size:50px;
+	margin-top:0;
+	}
+	
+#headerRight, #headerLeft {
+	margin:30px 0 0 0;
+	}
+	
+.searchBox{
+	width:200px;
+	height:25px;
+	float:left;
+	border:#C8D03E solid 1px;
+	padding-left:5px;
+	background: white url(../images/search.png) right no-repeat;
+	}	
+
+.button{
+	height:31px;
+	color:white;
+	font-size:14px;
+	font-weight:bold;
+	background-color:#A751D6;
+	border:0px;
+	float:right;
+	}
+	
+.clear {
+	clear:both;
+	}
+
+#menu{
+	background: linear-gradient(to bottom, #F4F28A, #DADA41);
+	height:100px;
+	margin-bottom:20px;
+	}
+
+#menu ul li a{
+	text-decoration:none;
+}
+
+#menu ul li{
+	font-size:20px;
+	font-weight:normal;
+	text-transform:uppercase;
+	list-style:none;
+	float:left;
+	padding: 0 25px;
+	border-right: solid 1px blue;
+	height:40px;
+	line-height:40px;
+	margin: 25px 0;
+	color:blue;
+	}
+	
+#menu ul li a{
+	font-size:20px;
+	font-weight:normal;
+	text-transform:uppercase;
+	transition:font-size 0.3s ease;
+	}
+	
+#menu ul li a:hover, #menu ul li a.active{
+	font-weight:bold;
+	font-size:24px;
+	color:#CD6DDB;
+	}
+
+#menu ul li:last-child {
+	border-right:0px;
+	}
+	
+#introductionBox{
+	height:290px;
+	background:linear-gradient(to bottom, #E0F1B0, #BDEA5F);
+	color:#8A7F01;
+	}
+
+#introductionBox h1 {
+	padding-top:60px;
+	font-size:50px;
+	font-weight:normal;
+	}
+	
+#introductionBox p {
+	padding-top:10px;
+	padding-right:15px;
+	font-size:24px;
+	font-weight:normal;
+	text-align:justify;
+	}
+	
+#introductionBox h1, #introductionBox p{
+	padding-left:40px;
+	}
+	
+#sideBarLeft {
+	float:left;
+	}
+	
+#sideBarRight {
+	float:right;
+	}
+	
+#sideBarLeft, #sideBarRight{
+	margin-top:20px;
+	width:49%;
+	height:500px;
+	border:1px solid #CFC;
+	border-radius:15px;
+	}
+
+#sideBarLeft h1, #sideBarRight h1{
+	color:#B314DB;
+	padding-left:30px;
+	padding-bottom:12px;
+	}
+	
+#sideBarLeft li{
+	color:blue;
+	list-style:none;
+	font-size:20px;
+	padding: 5px 0 5px 40px;
+	background: left url(../images/arrow.png) no-repeat;
+	}
+
+#sideBarRight li{
+		color:blue;
+		list-style:none;
+		font-size:20px;
+		padding: 10px 0 15px 60px;
+		background: left top url(../images/tick.png) no-repeat;
+		margin-left:20px;
+		}
+		
+#sideBarLeft li a, #sideBarRight li a{
+	text-decoration:none;
+	transition: font-size 0.3s ease
+	}
+
+#sideBarLeft li a:hover, #sideBarRight li a:hover{
+	font-size: 24px;
+	font-weight:bold;
+	color:#CD6DDB;
+	}
+
+
+#theFooter{
+	background: linear-gradient(to bottom, #F4F28A, #DADA41);
+	height:90px;
+	margin-top:20px;
+	}
+	
+#theFooter p {
+	padding-top:30px;
+	padding-left:30px;
+	}
+	
